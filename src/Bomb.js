@@ -14,3 +14,5 @@ class Bomb extends React.Component {
     return <div>{msg}</div>
   }
 }
+
+export default Bomb;
