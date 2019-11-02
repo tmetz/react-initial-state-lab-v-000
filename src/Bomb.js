@@ -8,7 +8,7 @@ class Bomb extends React.Component {
       secondsLeft: this.props.initialCount
     }
   }
- 
+
   render() {
     const msg = this.state.secondsLeft === 0 ? 'Boom!' : `${this.state.secondsLeft} seconds left before I go boom!`;
     return (
